@@ -74,7 +74,7 @@ flowchart TD;
 A[untracked] -- git add --> B[staged]
 C[modified] -- git add --> B
 B -- git commit --> D[tracked]
-D --> B
+D --> C
 ```
 ## Оформление сообщений к коммитам
 Есть общие рекомендации по тому, как правильно составить сообщение. Оно должно быть:
